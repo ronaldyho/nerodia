@@ -1,0 +1,509 @@
+/* login css */
+.easysite-login{
+    background-color: #fff;
+    border: 1px solid #b5b5b5;
+}
+.easysite-login a:hover{
+    color: #64b24f;
+}
+/* common input */
+.es-memberInput{
+    height: 22px;
+    padding: 4px 10px;
+    border: 1px solid #c9c9c9;
+}
+.easysite-login-title{
+    border-bottom: 2px solid #eee;
+    height: 50px;
+    padding: 0 40px;
+    position: relative;
+}
+.easysite-login-title h2{
+    height: 50px;
+    line-height: 53px;
+    font-size: 22px!important;
+    color: #000000;
+}
+.easysite-reEnter{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    color: #595757;
+}
+.easysite-reEnter i,
+.easysite-login-user i,
+.easysite-login-psd i,
+.es-login-error-tip i{
+    background: url("../../images/login-icon.png") no-repeat;
+    _background: url("../../images/login-icon-ie.png") no-repeat;
+}
+.easysite-reEnter i{
+    background-position: -57px -27px;
+    display: inline-block;
+    vertical-align: middle;
+    _vertical-align: bottom;
+    _margin-top: 4px;
+    margin-right: 3px;
+    width: 12px;
+    height: 12px;
+}
+.easysite-login-form{
+    padding: 35px 40px 0;
+    position: relative;
+}
+.es-login-error-tip{
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    _left: 0;
+    color: #e04132;
+    margin: 0;
+}
+.es-login-error-tip i{
+    background-position: -56px 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    *margin-top: 3px;
+    *margin-right: 3px;
+    width: 13px;
+    height: 13px;
+}
+.easysite-login-row{
+    margin-bottom: 20px;
+}
+.easysite-login-row .easysite-login-user,
+.easysite-login-row .easysite-login-psd{
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 37px;
+    height: 19px;
+    border-right: 1px solid #c9c9c9;
+}
+.easysite-login-user i{
+    background-position: 0 0;
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+    margin: 0 10px;
+}
+.easysite-login-psd i{
+    background-position: 0 -29px;
+    display: inline-block;
+    width: 16px;
+    height: 19px;
+    margin: 0 10px;
+}
+.es-loginLabel{
+    position: relative;
+    display: block;
+}
+.easysite-login-row .easysite-loInput{
+    padding: 4px 10px 4px 43px;
+    border: 1px solid #c9c9c9;
+    height: 32px;
+    *height: 20px;
+    width: 100%;
+    *width: 80%;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.easysite-login-code{
+    margin-bottom: 20px;
+}
+.easysite-login-code input{
+    width: 50%;
+}
+.es-imgCode{
+    width: 63px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.es-imgCode img{
+    width: 63px;
+    height: 30px;
+}
+.es-loginOperation{
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #595757;
+}
+.es-remember{
+    float: left;
+}
+.es-remember input{
+    vertical-align: middle;
+}
+.es-resetForget{
+    float: right;
+}
+.es-resetForget .es-resetBtn{
+    color: #595757;
+    background-color: #fff;
+    *display: inline-block;
+    *vertical-align: middle;
+    *margin-top: 2px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.es-resetBtn:hover{
+    color: #64b24f;
+}
+.es-resetForget a{
+    color: #595757;
+}
+.es-login-submit input{
+    width: 100%;
+    height: 30px;
+    line-height: 25px;
+    border: 1px solid #64b24f;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #64b24f;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.es-login-submit input:hover{
+    background-color: #64b24f;
+    color: #fff;
+}
+.es-login-submit{
+	margin-bottom: 14px;
+}
+.es-otherLogin{
+    padding-bottom: 14px;
+    font-size: 12px;
+    color: #595757;
+}
+.es-other-loginText{
+    float: left;
+    margin-right: 5px;
+    height: 30px;
+    line-height: 30px;
+}
+.es-other-loginList{
+    float: left;
+}
+.es-other-loginList a{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    display: inline-block;
+    background: url("../../images/member-share-icon-24.png") no-repeat;
+    _background: url("../../images/member-share-icon-8.png") no-repeat;
+}
+.es-other-loginList .es-qq-login{
+    background-position: 0 0px;
+}
+.es-other-loginList .es-qq-login:hover{
+    background-position: -40px 0px;
+}
+.es-other-loginList .es-weixin-login{
+    background-position: 0 -43px;
+}
+.es-other-loginList .es-weixin-login:hover{
+    background-position: -40px -43px;
+}
+.es-other-loginList .es-weibo-login{
+    background-position: 0 -88px;
+}
+.es-other-loginList .es-weibo-login:hover{
+    background-position: -40px -88px;
+}
+.es-other-loginList .es-zhifub-login{
+    background-position: 0px -133px;
+}
+.es-other-loginList .es-zhifub-login:hover{
+    background-position: -40px -133px;
+}
+.es-other-loginList .es-baidu-login{
+    background-position: 0px -178px;
+}
+.es-other-loginList .es-baidu-login:hover{
+    background-position: -40px -178px;
+}
+
+/* register one */
+.easysite-member-title{
+    height: 48px;
+    line-height: 48px;
+    background-color: #ebb155;
+    padding-left: 54px;
+    position: relative;
+}
+.easysite-member-title i{
+    background: url("../../images/member-icon.png") no-repeat;
+    _background: url("../../images/member-icon-ie.png") no-repeat;
+}
+.easysite-member-page-icon{
+    background-position: 0 0;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+.easysite-member-title h2{
+    color: #fff;
+    font-size: 16px!important;
+    font-weight: normal;
+}
+.easysite-member-page-title{
+    margin: 0 30px;
+    padding: 28px 0 7px;
+    border-bottom: 1px dashed #a0a0a0;
+}
+.easysite-member-page-title p{
+    color: #a0a0a0;
+    font-size: 12px;
+    margin: 0;
+}
+.easysite-member-page-title p em{
+    color: #f01f0b;
+    vertical-align: bottom;
+    display: inline-block;
+    height: 11px;
+}
+.easysite-member-page-content{
+    background-color: #eeeeee;
+}
+/* register two */
+.easysite-register-two .easysite-row{
+    padding: 10px 0 10px 40px;
+}
+.easysite-register-two .easysite-input-tip-wrap{
+    left: 40px;
+}
+/* modify password */
+.easysite-modify-pwd .easysite-member-title .easysite-modify-pwd-icon{
+    background: url("../../images/modify-pwd-icon.png") no-repeat 0 0;
+    width: 22px;
+    height: 26px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+/* isSuccess */
+.easysite-is-modify{
+    padding: 60px 0 60px 105px;
+    width: 345px;
+    margin: 0 auto;
+    text-align: center;
+}
+.easysite-pwd-success-icon{
+    float: left;
+    margin-left: -105px;
+    background: url("../../images/modify-success.png") no-repeat 0px 20px;
+    _background: url("../../images/modify-success-ie.png") no-repeat 0px 20px;
+    width: 105px;
+    height: 100px;
+}
+.easysite-pwd-error-icon{
+    float: left;
+    margin-left: -105px;
+    background: url("../../images/modify-error.png") no-repeat 0px 20px;
+    _background: url("../../images/modify-error-ie.png") no-repeat 0px 20px;
+    width: 105px;
+    height: 100px;
+}
+.easysite-pwd-isSuccess-info{
+    float: left;
+    vertical-align: middle;
+    font-size: 20px;
+    min-height: 80px;
+    padding: 0 3px 0 41px;
+    border-left: 1px solid #a0a0a0;
+    text-align: left;
+}
+.easysite-pwd-isSuccess-info p{
+    display: inline-block;
+    padding: 35px 0;
+}
+.easysite-find-success .easysite-pwd-isSuccess-info p{
+    display: inline-block;
+    padding: 0;
+}
+.easysite-find-success .easysite-pwd-isSuccess-info{
+    height: inherit;
+    padding: 10px 3px 10px 41px;
+}
+/* member info */
+.easysite-member-info .easysite-member-info-icon{
+    background: url("../../images/member-info-icon.png") no-repeat 0 0;
+    _background: url("../../images/member-info-icon-ie.png") no-repeat 0 0;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+}
+.easysite-member-detail{
+    border-top: 2px solid #eee;
+}
+.easysite-member-head{
+    padding: 11px 20px 11px 140px;
+}
+.easysite-member-portrait{
+    float: left;
+    position: relative;
+    margin-left: -115px;
+    text-align: right;
+    width: 85px;
+    height: 85px;
+    zoom: 1;
+}
+.easysite-member-portrait img{
+    position: absolute;
+}
+.easysite-mr_headfile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: 85px;
+    z-index: 101;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0;
+    filter: alpha(opacity:0);
+}
+.easysite-head-img{
+    top: 0;
+    left: 0;
+    width: 85px;
+    height: 85px;
+    z-index: 99;
+}
+.easysite-head-bg{
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.easysite-head-hover{
+	cursor:pointer;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    display: none;
+}
+.easysite-member-namesign{
+    float: left;
+    font-size: 16px;
+    width: 100%;
+}
+.easysite-member-namesign h5{
+    padding: 10px 0;
+}
+.easysite-member-namesign h5 span{
+    float: left;
+    margin-right: 20px;
+    color: #000;
+    max-width: 80%;
+    height: 21px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.easysite-edit-icon{
+    float: left;
+    background: url("../../images/member-edit-icon.png") no-repeat 4px 3px;
+    _background: url("../../images/member-edit-icon-ie.png") no-repeat 4px 3px;
+    width: 24px;
+    height: 23px;
+    cursor: pointer;
+}
+.easysite-edit-icon:hover{
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+.easysite-member-sign{
+    padding: 9px 0;
+    color: #595757;
+    max-width: 90%;
+    margin: 0;
+}
+.easysite-member-sign span{
+    height: 21px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.easysite-member-row:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.easysite-member-row{
+    zoom: 1;
+    padding: 8px 0 8px 120px;
+    color: #595757;
+}
+.easysite-member-key{
+    float: left;
+    margin-left: -120px;
+    padding: 5px 0;
+    color: #000000;
+    width: 100px;
+    text-align: right;
+    zoom: 1;
+}
+.easysite-member-cell{
+    padding-left: 20px;
+    line-height: 30px;
+    border-left: 1px solid #eee;
+    color: #595757;
+    float: left;
+}
+.easysite-member-cell p{
+    margin: 0;
+}
+.easysite-section-header{
+    padding: 8px 5px 9px 37px;
+}
+.easysite-section-header h4{
+    float: left;
+    margin-right: 38px;
+    color: #000000;
+    font-size: 16px;
+    max-width: 80%;
+    height: 21px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.easysite-member-form{
+    display: none;
+}
+.easysite-member-form .easysite-member-namesign h5 {
+    padding: 5px 0;
+}
+/*.easysite-member-form .easysite-member-sign {
+    padding: 5px 0;
+    color: #595757;
+    max-width: 100%;
+    margin: 0;
+}*/
+.easysite-edit-name-color{
+    color: #000;
+}
+.easysite-member-form .easysite-form-page-sub{
+    margin-top: 0;
+    border-top: 2px solid #eeeeee;
+}
+.easysite-member-form .easysite-member-cell{
+    width: 95%;
+}
+
+.easysite-em{
+	color:red;
+}

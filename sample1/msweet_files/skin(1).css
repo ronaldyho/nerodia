@@ -1,0 +1,74 @@
+.navgationDiv{display:none}
+*{margin:0;padding:0}
+ul{list-style:none}
+a{text-decoration:none}
+.fl{float:left}
+.fr{float:right}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+body *{font-family:"Microsoft Yahei","微软雅黑";color:#333}
+.container{width:1176px;margin:20px auto;background:#fff}
+.container .container-left{width:840px}
+.container .container-right{width:310px}
+.container-724 .tools{padding-bottom:40px}
+.container-724 .tools label{font-weight:700}
+.container-724 .tools input{vertical-align:middle}
+.tools .toolsbar-1,.tools .toolsbar-2,.tools .toolsbar-3{height:30px;line-height:30px}
+.toolsbar-1 .toolsbar-1-left>label{padding-right:30px}
+.toolsbar-1 .toolsbar-1-left input{margin-left:10px;margin-right:4px}
+.toolsbar-1 .toolsbar-1-left input:first-child{margin-left:0}
+.toolsbar-1 .toolsbar-1-right>span{font-size:14px;font-weight:700}
+.toolsbar-1 .toolsbar-1-right span{margin-left:16px;margin-right:8px}
+.toolsbar-1 .toolsbar-1-right .switch-btn{position:relative;width:38px;height:26px;background:#ccc;border-radius:40%}
+.toolsbar-1 .toolsbar-1-right .switch-btn i{position:absolute;display:block;width:24px;height:24px;line-height:24px;border:1px solid #ccc;border-radius:50%;top:0;left:-1px;background:#fff;cursor:pointer;font-size:12px;font-style:normal;font-weight:700;text-align:center}
+.toolsbar-2>label{padding-right:30px}
+.toolsbar-2>input{margin-left:10px;margin-right:4px}
+.toolsbar-3 input[type=text]{width:218px;height:28px;line-height:28px;padding:0 10px;border:1px solid #e1e6eb;background-color:#cce8cf;border-radius:4px}
+.toolsbar-3 .search-btnx{width:80px;height:30px;background:#288cf0;color:#fff;margin-left:10px;border:none;border-radius:4px;cursor:pointer}
+.news-wrap .news-tit{height:40px;line-height:40px;border-bottom:1px solid #e1e6eb}
+.news-wrap .news-tit strong{font-size:14px}
+.news-wrap .news-tit .time{padding-left:28px;background:url(icon-time.png) no-repeat left 10px}
+.news-wrap .news-cont .article-source,.news-wrap .news-cont .important-info{display:none}
+.news-wrap .news-cont table{width:100%;border-collapse:collapse;border-spacing:0}
+.news-cont table td{font-size:14px;height:48px;padding-bottom:20px}
+.news-cont table .news-cont-time{width:58px}
+.news-cont table .news-cont-share{width:52px;border-bottom:1px solid #e1e6eb;overflow:hidden}
+.news-cont table .news-cont-share a{display:block;float:right;width:29px;height:21px;text-indent:-999px;background:url(share-btn.png) no-repeat center}
+.news-cont .load-btn{width:100%;height:40px;margin-top:27px;background:0 0;color:#f56e12;border:1px solid #e1e6eb;cursor:pointer;font-size:14px}
+.edit-tj,.tj-box{width:100%;display:block;overflow:hidden}
+.tj-box ol li{display:block;width:96%;height:70px;padding:20px 2%;border-bottom:1px solid #e1e6eb}
+.tj_img{float:left;margin:0 10px 0 0}
+.tj_img img{width:100px;height:70px}
+.tj-box ol li a{display:block}
+.a-top{width:100%;height:30px;line-height:30px;position:relative}
+.a-title{text-align:center;border-bottom:#f76e12 2px solid;float:left;display:block;padding:0 5px;position:absolute;z-index:2;font-size:15px;font-weight:700}
+.a-more{float:left;height:30px;line-height:30px;border-bottom:2px solid #cecece;position:absolute;z-index:1;width:100%}
+.a-more a{text-align:right;font-size:13px;color:#cecece;display:block;line-height:32px}
+.a-more a:hover{text-decoration:none;color:#f76e12}
+.top{border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#ececec}
+.top .topbox{font-family:Microsoft Yahei;height:60px;width:1176px;margin-right:auto;margin-left:auto}
+.clear{clear:both}
+.top .topbox .top_logo{float:left;height:60px;width:192px}
+.logoimg a img{height:60px;width:192px}
+.top .topbox .top_nav{height:60px;overflow:hidden;float:left;display:block;margin:0 10px;width:770px}
+.top .topbox .top_nav ol li{display:block;float:left}
+.top .topbox .top_nav ol li a{line-height:40px;display:block;padding-right:12px;padding-left:12px;height:40px;margin-top:10px;font-size:14px;text-align:center}
+.top .topbox .top_nav ol li a:hover{color:#fff;background:#f76e12;display:block;border-radius:5px;text-decoration:none}
+.top .topbox .top_nav ol li .active{color:#fff;background:#f76e12;display:block;border-radius:5px}
+.index-search{float:left;position:relative;margin-top:15px}
+.search-btn{position:absolute;right:2px;top:1px;line-height:30px;width:24px;height:30px}
+.top .topbox .login{float:right;height:60px}
+.top .topbox .login a{background-color:#f76e12;display:block;color:#FFF;height:40px;padding-right:10px;padding-left:10px;line-height:40px;margin-top:10px;border-radius:5px;transition:.5S;-webkit-transition:.5S;-moz-transition:.5S;-o-transition:.5S}
+.top .topbox .login a:hover{background-color:red;transition:.5S;-webkit-transition:.5S;-moz-transition:.5S;-o-transition:.5S;text-decoration:none}
+.top_ad a{width:1176px;height:90px;display:block;margin:10px auto}
+.top_ad a img{width:1176px;height:90px}
+.right-mid-con{width:307px;float:right}
+.calendar{width:305px;border:1px solid #cecece;border-top:none;overflow:hidden}
+.rtnew-list{width:100%;margin-bottom:40px}
+.rtnew-list ol li{height:60px;display:block;position:relative;border-bottom:1px solid #ececec}
+.rt-time{font-size:13px;line-height:60px;width:40px;left:0;position:absolute}
+.rt-title{position:absolute;width:250px;right:0;top:12px}
+.rt-title a{line-height:20px;font-size:13px;text-align:justify;display:block;height:40px;overflow:hidden}
+#diaocha_page .easysite-login{border:none;height:310px}
+#new_dl8{text-align:center;padding:0 0 10px;background-color:#fff}
+.easysite-login-title span{background:url(close.png) no-repeat right top;display:block;height:30px;width:30px;position:absolute;top:0;right:0}

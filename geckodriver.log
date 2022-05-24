@@ -1,0 +1,89 @@
+1653394823224	geckodriver	INFO	Listening on 127.0.0.1:53270
+1653394826293	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53271" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofileMZ2Dxi"
+1653394826616	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofileMZ2Dxi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53271/devtools/browser/c55ce346-9122-47cf-b249-dd2f45ea623b
+1653394827844	Marionette	INFO	Listening on port 53292
+Read port: 53292
+1653394827941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653394837571	Marionette	INFO	Stopped listening on port 53292
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653394855122	geckodriver	INFO	Listening on 127.0.0.1:53320
+1653394875464	geckodriver	INFO	Listening on 127.0.0.1:53327
+1653394878544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--ignore-certificate-errors" "--remote-debugging-port" "53328" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofileeVmRoU"
+1653394878790	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofileeVmRoU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53328/devtools/browser/0c37de42-66d9-42e8-9b41-868d3df910dd
+1653394879873	Marionette	INFO	Listening on port 53345
+Read port: 53345
+1653394879892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653394912389	Marionette	INFO	Stopped listening on port 53345
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653396959060	geckodriver	INFO	Listening on 127.0.0.1:54175
+1653396962155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--ignore-certificate-errors" "--remote-debugging-port" "54176" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofileOksp7r"
+1653396962500	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofileOksp7r\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54176/devtools/browser/19873ffa-e60c-4bdf-8fad-593239faa186
+1653396963708	Marionette	INFO	Listening on port 54194
+Read port: 54194
+1653396963731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653396971144	Marionette	INFO	Stopped listening on port 54194
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653396993453	geckodriver	INFO	Listening on 127.0.0.1:54225
+1653396996516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--ignore-certificate-errors" "--remote-debugging-port" "54226" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofilekC4rIA"
+1653396996751	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofilekC4rIA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54226/devtools/browser/bbccda33-39b6-44e2-bc49-69a5c5eb6ee0
+1653396997825	Marionette	INFO	Listening on port 54245
+Read port: 54245
+1653396997948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: file:///C:/red/nerodia/sample1/msweet_files/contains.js.download, line 8: ReferenceError: BizQQWPA is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet_files/taskMgr.js.download, line 7: ReferenceError: BizQQWPA is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet_files/views.js.download, line 8: ReferenceError: BizQQWPA is not defined
+JavaScript warning: file:///C:/red/nerodia/sample1/msweet_files/investigateNew2.min.js.download, line 20: unreachable code after return statement
+JavaScript warning: file:///C:/red/nerodia/sample1/msweet_files/login2.js.download, line 96: unreachable code after return statement
+JavaScript warning: file:///C:/red/nerodia/sample1/msweet_files/login2.js(1).download, line 96: unreachable code after return statement
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=60603cb3.js, line 1: TypeError: n.ajax.request is not a function
+1653397030360	Marionette	INFO	Stopped listening on port 54245
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 7116, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1653397032820	geckodriver	INFO	Listening on 127.0.0.1:54329
+1653397035906	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--ignore-certificate-errors" "--remote-debugging-port" "54330" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofileeuG6Ys"
+1653397036157	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofileeuG6Ys\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54330/devtools/browser/3db1102d-ab32-404e-987a-d3e1b2f9b00b
+1653397037245	Marionette	INFO	Listening on port 54347
+Read port: 54347
+1653397037336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: file:///C:/red/nerodia/sample1/msweet_files/taskMgr.js.download, line 7: ReferenceError: BizQQWPA is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet_files/contains.js.download, line 8: ReferenceError: BizQQWPA is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet_files/views.js.download, line 8: ReferenceError: BizQQWPA is not defined
+JavaScript warning: file:///C:/red/nerodia/sample1/msweet_files/investigateNew2.min.js.download, line 20: unreachable code after return statement
+JavaScript warning: file:///C:/red/nerodia/sample1/msweet_files/login2.js.download, line 96: unreachable code after return statement
+JavaScript warning: file:///C:/red/nerodia/sample1/msweet_files/login2.js(1).download, line 96: unreachable code after return statement
+1653397040851	Marionette	INFO	Stopped listening on port 54347
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1653398683438	geckodriver	INFO	Listening on 127.0.0.1:55035
+1653398686542	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--ignore-certificate-errors" "--remote-debugging-port" "55036" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofiley3rpjj"
+1653398686781	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ronal\\AppData\\Local\\Temp\\rust_mozprofiley3rpjj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55036/devtools/browser/9cf2247e-772d-47d6-8157-12f7205700f7
+1653398687874	Marionette	INFO	Listening on port 55061
+Read port: 55061
+1653398687977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: file:///C:/red/nerodia/sample1/msweet.html, line 560: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet.html, line 1576: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet.html, line 1675: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet.html, line 1981: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet.html, line 2092: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet.html, line 2168: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet.html, line 2265: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet.html, line 2280: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet_files/ui.html, line 265: ReferenceError: $ is not defined
+JavaScript error: file:///C:/red/nerodia/sample1/msweet_files/ui.html, line 275: ReferenceError: $ is not defined
